@@ -1,0 +1,41 @@
+[user]
+    name = Austin
+    email = austin.mcelroy@uon.edu.au
+
+[init]
+    defaultBranch = main
+
+[core]
+    editor = vim
+
+[pull]
+    rebase = true
+
+[alias]
+    log = log --oneline --graph
+
+[color]
+    ui = true
+
+[color "diff"]
+    meta = 67
+    frag = 67
+    old = 59
+    new = white
+    commit = 67
+
+[color "status"]
+    added = white
+    changed = 67
+    untracked = 59
+
+[color "branch"]
+    current = white
+    local = 67
+    remote = 59
+
+[push]
+    autoSetupRemote = true
+
+[rebase]
+    autoStash = true

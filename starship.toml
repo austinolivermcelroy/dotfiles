@@ -1,0 +1,25 @@
+[character]
+success_symbol = "[→](67)"
+error_symbol = "[→](59)"
+vimcmd_symbol = "[<](102)"
+
+[directory]
+style = "white"
+
+[git_branch]
+style = "67"
+symbol = ""
+
+[git_status]
+disabled = true
+
+[python]
+symbol = ""
+style = "102"
+format = "via [$version](102) "
+
+[cmd_duration]
+style = "59"
+
+[battery]
+disabled = true
