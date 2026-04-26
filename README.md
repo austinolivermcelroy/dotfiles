@@ -16,6 +16,7 @@ build-essential (Linux)
 <pre>
 vim
 tmux
+mosh
 </pre>
 
 ### Shell
