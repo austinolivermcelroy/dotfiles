@@ -12,7 +12,7 @@ set smartcase
 set hlsearch
 let mapleader = " "
 nnoremap <silent> <leader>h :nohlsearch<CR><C-l>
-nnoremap <leader>r :source $MYVIMRC<CR>:display "Vimrc reloaded"<CR>
+nnoremap <leader>r :source $MYVIMRC<CR>:echo "Vimrc reloaded"<CR>
 set incsearch
 set scrolloff=8
 set wrap
