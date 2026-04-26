@@ -68,6 +68,12 @@ llvm (macOS)
 clang-tidy (Linux)
 </pre>
 
+### Fabrication
+<pre>
+KiCad (macOS)
+Bambu Studio (macOS)
+</pre>
+
 ### Scientific
 <pre>
 pyansys
