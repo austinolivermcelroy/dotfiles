@@ -74,6 +74,13 @@ pyansys
 numpy
 scipy
 matplotlib
+jupyter
+pandas
+sympy
+astropy
+poliastro
+scikit-learn
+cvxpy
 </pre>
 
 ### LaTeX
