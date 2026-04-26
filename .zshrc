@@ -20,6 +20,8 @@ autoload -Uz compinit && compinit
 bindkey -v
 KEYTIMEOUT=1
 bindkey '^R' history-incremental-search-backward
+bindkey '^?' backward-delete-char
+bindkey '^H' backward-delete-char
 
 export LS_COLORS="di=38;5;67:ln=38;5;67:so=38;5;102:pi=38;5;102:ex=37:bd=38;5;59:cd=38;5;59:su=38;5;67:sg=38;5;67:tw=38;5;67:ow=38;5;67:fi=0:no=0:mi=38;5;59:or=38;5;59"
 zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
