@@ -10,7 +10,8 @@ set smartindent
 set ignorecase
 set smartcase
 set hlsearch
-nnoremap <silent> <C-l> :nohlsearch<CR><C-l>
+let mapleader = " "
+nnoremap <silent> <leader>h :nohlsearch<CR><C-l>
 set incsearch
 set scrolloff=8
 set wrap
