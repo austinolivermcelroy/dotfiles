@@ -19,7 +19,6 @@ autoload -Uz compinit && compinit
 
 bindkey -v
 KEYTIMEOUT=1
-bindkey '^R' history-incremental-search-backward
 bindkey '^?' backward-delete-char
 bindkey '^H' backward-delete-char
 
