@@ -92,6 +92,7 @@ cvxpy
 
 ### LaTeX
 <pre>
+pandoc
 graphviz
 MacTeX (macOS)
 texlive-full (Linux)
