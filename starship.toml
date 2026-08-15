@@ -10,9 +10,8 @@ symbol = ""
 [git_status]
 disabled = true
 [python]
-symbol = ''
-style = "102"
-format = "via [$version](102) "
+symbol = 'P '
+format = "via [$symbol($version)](102) "
 [cmd_duration]
 style = "59"
 [battery]
@@ -22,4 +21,6 @@ style_user = "white"
 [hostname]
 style = "67"
 ssh_symbol = ""
-
+[c]
+symbol = 'C '
+format = "via [$symbol($version)](102) "
